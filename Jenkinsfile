@@ -7,26 +7,30 @@ pipeline {
 
                   steps {
                  
-                            echo "This is stage 1"
+                                     echo "This is stage 1"
                 }
+
+            }
                    stage ("stage-2") {
 
-                  steps {
+                         steps {
                  
-                            echo "This is stage 2"
+                                      echo "This is stage 2"
                 }
-                       stage ("stage-3") {
+
+            }
+                    stage ("stage-3") {
 
                   steps {
                  
-                            echo "This is stage 3"
+                                        echo "This is stage 3"
                 }
             
             
             
              }
         }
-      }
+      
 
     }
 
